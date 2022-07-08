@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.alphacoders.com/106/106181.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+    z-index: -1;
+    font-family: 'Oswald', sans-serif;
+}
+  
+.btn-secondary {
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    position: sticky;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn-secondary:hover {
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+    border-color: white;
+}
+  
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
